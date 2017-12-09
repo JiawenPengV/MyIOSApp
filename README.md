@@ -1,11 +1,16 @@
 # MyIOSApp
 
-This is an iOS application using xcode.
-The main functions of this application is photo sharing and posting.
+## Synopsis
+This a quick and reliable photo sharing iOS application
 
-Fulfilled functions:
-1.New user registration
-2.User authorization
-3.Posting new post with text and photo
-4.Following and unfollowing users
-5.User loging out
+## Technical Stack
+swift + xcode
+
+## Functions
+* 1.New user registration with username and password
+* 2.User authorization
+* 3.Posting new post with text and photo
+* 4.Following and unfollowing users.  Users can see all the registered users and all the followed users' posts.
+
+
+
