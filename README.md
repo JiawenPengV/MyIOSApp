@@ -32,15 +32,11 @@ run simulator
 * enjoy!:+1:
 
 ## Screenshots
-login page
+
 ![](https://github.com/Jiawenjiang/MyIOSApp/raw/master/demoPics/login.png)
-register page
 ![](https://github.com/Jiawenjiang/MyIOSApp/raw/master/demoPics/register.png)
-main page
 ![](https://github.com/Jiawenjiang/MyIOSApp/raw/master/demoPics/mainpage.png)
-new post page
 ![](https://github.com/Jiawenjiang/MyIOSApp/raw/master/demoPics/new_post.png)
-user list page
 ![](https://github.com/Jiawenjiang/MyIOSApp/raw/master/demoPics/user_list.png)
 
 
