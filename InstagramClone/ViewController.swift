@@ -112,7 +112,7 @@ class ViewController: UIViewController {
   //----------------create account-----------------------------------
     func createAlert() {
         
-        let alert = UIAlertController(title: "New Account", message: "PLease iput your account and password", preferredStyle: .alert)
+        let alert = UIAlertController(title: "New Account", message: "Please input your account and password", preferredStyle: .alert)
         
         let cancelAction = UIAlertAction(title: "Cancal", style: .cancel) {
             
@@ -122,7 +122,7 @@ class ViewController: UIViewController {
         
     }
         
-        let createAction = UIAlertAction(title: "creat", style: .default){(create) in
+        let createAction = UIAlertAction(title: "Create", style: .default){(create) in
             
             if alert.textFields?[0].text == "" || alert.textFields?[1].text == "" {
                 self.message = "please insert account and password"

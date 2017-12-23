@@ -41,10 +41,10 @@ class ReviewViewController: UIViewController,UINavigationControllerDelegate,UIIm
             self.message.text = ""
             
             
-            self.createAlert(title: "Uploaded", message: "Your review has been uploaded")
+            self.createAlert(title: "Uploaded", message: "Your post has been uploaded")
             
         } catch {
-           self.createAlert(title: "Uploaded failed", message: "Your review fail to be uploaded")
+           self.createAlert(title: "Uploaded failed", message: "Your post fails to upload")
         }
         
         
@@ -73,7 +73,7 @@ class ReviewViewController: UIViewController,UINavigationControllerDelegate,UIIm
         
         let alert = UIAlertController(title: title, message: message, preferredStyle: UIAlertControllerStyle.alert)
         
-        let cancelAction = UIAlertAction(title: "Comfirm", style: UIAlertActionStyle.cancel) {
+        let cancelAction = UIAlertAction(title: "Confirm", style: UIAlertActionStyle.cancel) {
             (cancel) in
             alert.dismiss(animated: true, completion: nil)
         }
@@ -119,7 +119,7 @@ class ReviewViewController: UIViewController,UINavigationControllerDelegate,UIIm
         submitoutlet.layer.cornerRadius = 50 / 2
         submitoutlet.clipsToBounds = true
         
-        self.title = "\(currentUser) ' s review"
+        self.title = "\(currentUser)'s new post"
         
     }
 
