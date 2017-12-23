@@ -37,7 +37,7 @@ login page
 register page
 ![](https://github.com/Jiawenjiang/MyIOSApp/raw/master/demoPics/register.png)
 main page
-![](https://github.com/Jiawenjiang/MyIOSApp/raw/master/demoPics/mainPage.png)
+![](https://github.com/Jiawenjiang/MyIOSApp/raw/master/demoPics/mainpage.png)
 new post page
 ![](https://github.com/Jiawenjiang/MyIOSApp/raw/master/demoPics/new_post.png)
 user list page
